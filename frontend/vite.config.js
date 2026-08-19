@@ -10,7 +10,4 @@ export default defineConfig({
     tailwindcss(),
     babel({ presets: [reactCompilerPreset()] }),
   ],
-  experimental: {
-    enableNativePlugin: "resolver",
-  },
 });
